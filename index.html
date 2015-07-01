@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<link href='http://fonts.googleapis.com/css?family=Cabin:400,600,700' rel='stylesheet' type='text/css'>
+		<link href='http://fonts.googleapis.com/css?family=Prosto+One' rel='stylesheet' type='text/css'>
+		<link href='http://fonts.googleapis.com/css?family=Montserrat:400,700' rel='stylesheet' type='text/css'>
+    	<meta charset="utf-8">
+    	<meta name="PicMe" content="Picme Landing Page">
+    	<meta name="keywords" content="one, two, three">
+    	<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.8.3/jquery.min.js"></script>
+    	<script src ="script/animatescroll.js"></script>
+    	<script src ="scrolly/jquery.scrolly.js"></script>
+
+		<title>PicMe App</title>
+		
+		<link rel="stylesheet" href="css/styles.css">
+		<link href="ss-social-circle/webfonts/ss-social-circle.css" rel="stylesheet" />
+	</head>
+
+	<body>
+		<script>
+		    $(document).ready(function(){
+		       $('.parallax').scrolly({bgParallax: true});
+		    });
+		</script>
+		<div id="container">
+			<header>
+				<nav>
+					<ul class="home">
+						<li><a class="menu" onclick="$('#landing-page').animatescroll();" href="#landing-page">HOME</a></li>
+						<li><a class="menu" onclick="$('#about-page').animatescroll();" href="#about-page">ABOUT</a></li>
+						<li><a class="menu" onclick="$('#wireframe-page').animatescroll();" href="#wireframe-page">WIREFRAMES</a></li>
+						<li><a class="menu" onclick="$('#contact-page').animatescroll();" href="#contact-page">CONTACT</a></li>
+						
+
+						<li><a class="ss-facebook social" href=""></a></li>
+						<li><a class="ss-twitter social" href=""></a></li>
+						<li><a class="ss-instagram social" href=""></a></li>
+
+					</ul>
+				</nav>
+			</header>
+			<div id="landing-page">
+				<section class= "landing">
+					<h1 class="clear">PicMe.</h1>
+					<h2>A marketplace connecting spectators at sporting events and their photographs with participants.</h2>
+				</section>
+			</div>
+
+			<div class="run" id="about-page">
+				<section class="about">
+					<h2>ABOUT</h2>
+					<p>Although professional photographers are present at most mass sporting events, we have been constantly disappointed by the cost and lack of variety of such pictures. The photographers tend to stay put in one place so the chances of getting a great candid action shot are slim.</p>
+
+				
+
+					<h3>PicMe transforms the hundreds, even thousands, of spectators into event photographers.</h3>
+					<p>While standing at the sidelines, spectators can snap action photos, tag the subject with their bib number and upload to the app. The participant is then able to download the tagged photographs from the app for a fee.</p>
+
+					<div class="list-icon">
+							<ul>
+								<li class="list">SNAP </li>
+								<li class="list">TAG </li>
+								<li class="list">UPLOAD </li>
+							</ul>
+
+					</div>
+
+					<img src="images/cameraicon.png" alt="camera" height="10px" width="10px" class="icon">
+					<img src="images/tagicon.png" alt="camera" height="10" width="10" class="icon">
+					<img src="images/uploadicon.png" alt="camera" height="10" width="10" class="icon">
+
+					<p>It's as easy as that.</p>
+
+
+					
+					<h3>Why PicMe?</h3>
+					<ol>
+						<li>Low-cost, high-quality and personal pics</li>
+						<li>More shots, greater variety and better action pics</li>
+						<li>Get paid to take photos</li>
+					</ol>
+				</section>
+			</div>
+		
+			<section class="wireframes" id="wireframe-page">
+				<h2>WIREFRAMES<img src="images/Logo.jpg" alt="logo" height="60" width="60"></h2>
+				<img src="images/wireframe_how_to.png" alt="home" height="400" width="250" id="wireframe01">
+				<div class="clearfix">
+					<article id="article1">
+							<p id="wftext01">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam sed volutpat odio. Integer in neque ipsum.Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam sed volutpat odio. Integer in neque ipsum.Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam sed volutpat odio. Integer in neque ipsum.</p>
+					</article>
+					<img src="images/wireframe_home.png" alt="home" height="400" width="250" id="wireframe02">
+					<article id="article2">
+							<p id="wftext02" class="clear">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam sed volutpat odio. Integer in neque ipsum.Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam sed volutpat odio. Integer in neque ipsum.Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam sed volutpat odio. Integer in neque ipsum.</p>
+						</article>
+
+					<img src="images/wireframe_bib.png" alt="wireframe" height="400" width="250" id="wireframe03">
+
+					<article id="article3">
+						<p id="wftext03"class="clear">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam sed volutpat odio. Integer in neque ipsum.Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam sed volutpat odio. Integer in neque ipsum.Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam sed volutpat odio. Integer in neque ipsum.</p>
+					</article>
+				</div>
+			</section>
+
+
+			<div class="footer" id="contact-page">
+				<h2>LIKE WHAT WE'RE DOING?</h2>
+				<p>Reach out and let us know! Fill out the form with whatever your needs and we'll get back to you.</p>
+
+				<section class="contact">
+					<form action="mailto:info@picme.com" enctype="text/plain" method="post">
+						<input class="contact-form" placeholder="NAME" name="Name" type="text" id="Name" size="40">
+						<input class="contact-form" placeholder="EMAIL" name="E-mail" type="text" id="E-mail" size="40">
+						
+						<p><textarea class="contact-form", "textarea" placeholder="THOUGHTS" name="Comment" cols="82" rows="5"
+						id="Comment"></textarea></p>
+						<p><input class="submit" type="submit" name="Submit" value="SEND!"></p>
+					</form>
+					<footer>
+
+
+					</footer>
+				</section>
+			</div>
+		</div>
+	</body>
+</html>

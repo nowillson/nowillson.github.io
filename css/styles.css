@@ -1,0 +1,324 @@
+body {
+	font-family: "Montserrat";
+	color: #c5c5c5;
+	width: 100%;
+	height: 100%;
+	margin: 0;
+}
+
+html {
+	background-color: #c5c5c5;
+}
+
+header {
+	background-color: #c5c5c5;
+	height: 50px;
+	position: fixed;
+	width: 100%;
+	top: 0;
+	opacity: 0.9;
+}
+
+h3 {
+	text-align: center;
+}
+
+ul {
+	text-decoration: inline;
+	list-style-type: none;
+	text-align: left;
+}
+
+
+li {
+	font-size: 14px;
+	display: inline;
+	padding-right: 10px;
+	margin-right: 5px;
+	font-family: "Cabin";
+	font-weight: 700;
+	font-size: 16px;
+
+}
+
+a {
+	text-decoration: none;
+	color: white;
+	letter-spacing: 4px;
+	border: 1px #c5c5c5;
+	background-color: #c5c5c5;
+	padding: 0 5px;
+	border-radius: 5px;
+}
+
+ol li {
+	text-align: center;
+}
+
+h1.clear {
+	clear: both;
+}
+
+h1 {
+	font-family: "Prosto One";
+	font-size: 50px;
+	text-align: left;
+	letter-spacing: 2px;
+	color: #55e2c7;
+}
+
+.menu:hover {
+	border: 1px white;
+	background: white;
+	color: #c5c5c5;
+}
+
+
+#landing-page {
+	height: 700px;
+	width: 100%;
+	background-image: url("../images/run02.jpg");
+	background-repeat: no-repeat;
+	background-size: cover;
+	padding: none;
+	margin: none;
+}
+
+.about {
+	
+	font-family: "Montserrat";
+	color: #c5c5c5;
+	margin-left: 20px;
+	padding-top: 20px;
+	color: white;
+	padding: 0;
+	padding-right: 20px;
+
+}
+
+.run {
+	background-color: #55e2c7;
+
+}
+
+.run img {
+	width: 10%;
+	
+
+}
+
+.list {
+	display: block;
+
+}
+
+.icon {
+	height: 10%;
+}
+
+.social {
+	text-decoration: none;
+	font-size: 20px;
+	text-align: right;
+	float: right;
+	margin-right: 15px;
+}
+
+.social:hover{
+	text-decoration: none;
+}
+
+.landing {
+	font-family: "Montserrat";
+	color: #c5c5c5;
+	margin: 0 20px 0 20px;
+	padding-top: 20px;
+	color: white;
+}
+
+#landing-page h2 {
+	padding-top: 100px;
+}
+
+
+h2 {
+	margin: 0;
+	font-size: 50px;
+	padding-top: 40px;
+}
+
+h2 img {
+	float: right;
+	margin-right: 95px;
+	background-size: cover;
+}
+
+article {
+	width: 500px;
+	height: 600px;
+	margin-top: 40px;
+}
+
+article p {
+	font-size: 20px;
+}
+
+.wireframes {
+	background-color: white;
+	font-family: "Montserrat";
+	color: #c5c5c5;
+	padding: 0 20px 0 20px;
+}
+
+#wireframe01 {
+	float: right;
+}
+
+#wireframe02 {
+	float: left;
+}
+
+#wireframe03 {
+	float:right;
+}
+
+
+ #article1 {
+ 	float: left;
+ }
+
+ #article2 {
+ 	float: right;
+
+ }
+
+ #article3 {
+ 	float: left;
+ }
+
+hr.clear {
+	clear: both;
+}
+.wireframes p {
+	font-size: 16px;
+}
+
+
+.wireframes h2 {
+	padding-top: 40px;
+
+}
+
+.footer {
+	height: 650px;
+	background-image: url("../images/run06.jpg");
+	background-repeat: no-repeat;
+	background-size: cover;
+	padding: 0 20px;
+	margin: 0;
+}
+
+.footer h2 {
+	padding-top: 280px;
+	color: white;
+}
+
+.footer p {
+	color: white;
+}
+
+.clearfix:after {
+     visibility: hidden;
+     display: block;
+     font-size: 0;
+     content: " ";
+     clear: both;
+     height: 0;
+     }
+
+.clearfix { display: inline-block; }
+/* start commented backslash hack \*/
+* html .clearfix { height: 1%; }
+.clearfix { display: block; }
+/* close commented backslash hack */
+
+
+.container {
+	width: 960px;
+}
+
+
+.not-highlighted{
+	text-decoration: none;
+}
+
+fieldset {
+	text-decoration: none;
+}
+
+form {
+	border: none;
+}
+
+.contact {
+	text-align: center;
+	margin-top: 40px;
+}
+
+.contact-form {
+	opacity: 0.5;
+}
+
+.textarea {
+
+}
+
+.submit {
+	background-color: #55e2c7;
+	color: white;
+	font-family: "Montserrat";
+	border: none;
+	font-size: 16px;
+	padding-left: 20px;
+	padding-right: 20px;
+
+}
+
+.submit:hover {
+	background-color: white;
+	color: #55e2c7;
+}
+
+::-webkit-input-placeholder {
+   color: #55e2c7;
+   font-family: "Montserrat";
+   font-size: 12px;
+   opacity: 1;
+   font-weight: bolder;
+}
+
+:-moz-placeholder { /* Firefox 18- */
+   
+   color: #55e2c7;
+   font-family: "Montserrat";
+   font-size: 12px;
+   opacity: 1;
+   font-weight: bolder;
+}
+
+::-moz-placeholder {  /* Firefox 19+ */
+   color: #55e2c7;
+   font-family: "Montserrat";
+   font-size: 12px;
+   opacity: 1;
+   font-weight: bolder;
+}
+
+:-ms-input-placeholder {  
+   color: #55e2c7;
+   font-family: "Montserrat";
+   font-size: 12px;
+   opacity: 1;
+   font-weight: bolder;
+}
+
