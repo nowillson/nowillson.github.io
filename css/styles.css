@@ -19,9 +19,7 @@ header {
 	opacity: 0.9;
 }
 
-h3 {
-	text-align: center;
-}
+
 
 ul {
 	text-decoration: inline;
@@ -75,7 +73,7 @@ h1 {
 
 
 #landing-page {
-	height: 700px;
+	height: 650px;
 	width: 100%;
 	background-image: url("../images/run02.jpg");
 	background-repeat: no-repeat;
@@ -93,7 +91,13 @@ h1 {
 	color: white;
 	padding: 0;
 	padding-right: 20px;
+	padding-bottom: 50px;
+}
 
+.about h3 {
+	text-align: center;
+	font-size: 30px;
+	color:;
 }
 
 .run {
@@ -101,20 +105,46 @@ h1 {
 
 }
 
-.run img {
-	width: 10%;
-	
-
+.icon-crop {
+	border-radius: 200px;
+	overflow: hidden;
+	width: 200px;
+	height: 200px;
+	position: relative;
+	margin-left: auto;
+	margin-right: auto;
 }
 
 .list {
-	display: block;
+	display: inline;
+	padding: 20px;
+	text-align: center;
+	color: #628DA6;
+	font-size: 30px;
 
 }
 
 .icon {
-	height: 10%;
+	height: 100px;
 }
+
+.list-icon-one, .list-icon-two, .list-icon-three{
+	display: center;
+	float: left;
+	width: 33%;
+	height: 400px;
+	text-align: center;
+}
+
+.list-icon-one h4, .list-icon-two h4, .list-icon-three h4 {
+	font-size: 30px;
+	color:#628DA6;
+}
+
+.list-icon-one p, .list-icon-two p, .list-icon-three p {
+	padding-top: 20px;
+}
+
 
 .social {
 	text-decoration: none;
@@ -138,7 +168,9 @@ h1 {
 
 #landing-page h2 {
 	padding-top: 100px;
+	text-align: center;
 }
+
 
 
 h2 {
@@ -155,7 +187,7 @@ h2 img {
 
 article {
 	width: 500px;
-	height: 600px;
+	height: 400px;
 	margin-top: 40px;
 }
 
@@ -168,37 +200,37 @@ article p {
 	font-family: "Montserrat";
 	color: #c5c5c5;
 	padding: 0 20px 0 20px;
+	padding-bottom: 50px;
 }
 
-#wireframe01 {
+
+.wireframe-right {
 	float: right;
+	margin-right: 110px;
+	margin-top: 20px;
 }
 
-#wireframe02 {
+.wireframe-left {
 	float: left;
-}
-
-#wireframe03 {
-	float:right;
-}
-
-
- #article1 {
- 	float: left;
- }
-
- #article2 {
- 	float: right;
-
- }
-
- #article3 {
- 	float: left;
- }
-
-hr.clear {
 	clear: both;
+	margin-left: 110px;
+	padding: 0;
+
 }
+
+.article-left {
+	float:left;
+	margin-left: 110px;
+}
+
+
+.article-right {
+	float: right;
+	margin-right: 110px;
+
+}
+ 
+
 .wireframes p {
 	font-size: 16px;
 }
@@ -210,7 +242,7 @@ hr.clear {
 }
 
 .footer {
-	height: 650px;
+	
 	background-image: url("../images/run06.jpg");
 	background-repeat: no-repeat;
 	background-size: cover;
@@ -219,7 +251,7 @@ hr.clear {
 }
 
 .footer h2 {
-	padding-top: 280px;
+	padding-top: 300px;
 	color: white;
 }
 
@@ -252,26 +284,20 @@ hr.clear {
 	text-decoration: none;
 }
 
-fieldset {
-	text-decoration: none;
-}
 
-form {
-	border: none;
-}
+
 
 .contact {
 	text-align: center;
-	margin-top: 40px;
+	margin-top: 20px;
+	border-style: none;
 }
+
 
 .contact-form {
-	opacity: 0.5;
+	opacity: 0.6;
 }
 
-.textarea {
-
-}
 
 .submit {
 	background-color: #55e2c7;
@@ -320,5 +346,20 @@ form {
    font-size: 12px;
    opacity: 1;
    font-weight: bolder;
+}
+
+#comment {
+	display: none;
+}
+
+.copy {
+  color: white;
+  font-size: 10px;
+  text-align: left;
+  font-weight: 200;
+}
+
+#picfooter {
+	margin: 0;
 }
 
